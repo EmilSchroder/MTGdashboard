@@ -1,12 +1,35 @@
-.dot {
-  width: 2rem;
-  height: 2rem;
-  border: 1px #ccc solid;
-  border-radius: 50%;
+figure{
+    width: 233px
 }
 
-button {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
+.deckContain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}
+
+.deck{
+    
+    height: 311px;
+    width: 233px;
+    border-radius: 3%;
+}
+
+.newDeck{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    border-style: dashed;
+    background-color: aliceblue;
+}
+
+.newDeck:focus,:active{
+    outline: none;
+}
+
+.newDeck:active{
+    /* background-color: antiquewhite; */
+    box-shadow: 2px 5px rgb(212, 208, 208);
 }
