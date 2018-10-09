@@ -1,1 +1,20 @@
+.deck{
+    
+    height: 300px;
+    width: 200px;
+    border-radius: 3%;
+}
 
+.newDeck{
+    border-style: dashed;
+    background-color: aliceblue;
+}
+
+.newDeck:focus,:active{
+    outline: none;
+}
+
+.newDeck:active{
+    /* background-color: antiquewhite; */
+    box-shadow: 2px 5px rgb(212, 208, 208);
+}
