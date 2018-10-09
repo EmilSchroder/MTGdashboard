@@ -2,9 +2,10 @@ const initialState = {
     decks: [{
       name: 'Merfolk you up',
       image: 'http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409741&type=card',
-      desc: 'image not with name'
+      description: 'image not with name'
 
-    }]
+    }],
+    activeDeck: {}
 }
 
 const decks = (state = initialState, action) => {

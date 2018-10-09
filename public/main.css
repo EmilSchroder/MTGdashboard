@@ -1,11 +1,26 @@
+figure{
+    width: 233px
+}
+
+.deckContain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}
+
 .deck{
     
-    height: 300px;
-    width: 200px;
+    height: 311px;
+    width: 233px;
     border-radius: 3%;
 }
 
 .newDeck{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
     border-style: dashed;
     background-color: aliceblue;
 }
