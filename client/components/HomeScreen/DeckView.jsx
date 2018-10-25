@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 import BlankDeck from './BlankDeck'
 import SingleDeck from './SingleDeck'
@@ -13,7 +14,7 @@ function deckRun(list){
 
 const DeckView = (props) => (
     <div className='deckContain'>
-        <BlankDeck />
+        <Link to='/create'><BlankDeck /></Link>
         {deckRun(props.decks)}
     </div>
 )
