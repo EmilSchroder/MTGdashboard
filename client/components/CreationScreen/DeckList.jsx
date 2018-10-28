@@ -7,7 +7,7 @@ class DeckList extends React.Component{
 
     render(){
         return (
-            <h1>this is the deck view</h1>
+            <h1>this is the deck view (needs to include all cards)</h1>
         )
     }
 }
